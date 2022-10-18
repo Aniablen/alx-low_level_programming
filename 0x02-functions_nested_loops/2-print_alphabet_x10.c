@@ -2,7 +2,6 @@
 /**
  * print_alphabet_x10 - print alphabet 10 times
  * Description: print lowercase alphabet followed by newline
- * Return: 0 success
  */
 void print_alphabet_x10(void)
 {
