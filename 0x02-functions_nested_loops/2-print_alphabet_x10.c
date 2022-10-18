@@ -2,11 +2,11 @@
 /**
  * print_alphabet_x10 - print alphabet 10 times
  * Description: print lowercase alphabet followed by newline
- * Return: void
+ * Return: 0 success
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	int c;
+	char c;
 	int i;
 
 	for (i = 0, i < 10, i++)
