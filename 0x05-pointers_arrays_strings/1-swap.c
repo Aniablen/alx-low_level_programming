@@ -1,11 +1,15 @@
-#include <unistd.h>
 #include "main.h"
+
 /**
- * _putchar - writes character c to student
- * @c: char to be rinted
- * Return: On success 1
+ * swap_int - swaps the values of two integers
+ * @a: int a
+ * @b: int b
  */
-int _putchar(char c)
+void swap_int(int *a, int *b)
 {
-	return (write(1, &c, 1));
+	int q;
+
+	q = *a;
+	*a = *b;
+	*b = q;
 }
